@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <button id="cancelQuiz">Cancel Quiz</button>
+    </nav>
+    <div id="filterButtons">
+        <button class="filterBtn" data-category="HTML">Html</button>
+        <button class="filterBtn" data-category="CSS">CSS</button>
+        <button class="filterBtn" data-category="Javascript">Javascript</button>
+    </div>
+
+    <div id="quizContainer">
+        <div id="timer"></div>
+        <h2 id="questionTitle"></h2>
+        <ul id="optionsList"></ul>
+        <button id="submitAnswer">Submit Answer</button>
+        <div id="resultCard"></div>
+        <button id="restartQuiz">Restart Quiz</button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
